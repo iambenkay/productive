@@ -44,7 +44,7 @@ class App extends React.Component {
         let { projects } = this.state;
         return (
             <>
-                <div className="toolbar d-flex align-items-center p-3"><h3 className="cursive">Productive X</h3></div>
+                <div className="toolbar d-flex align-items-center p-3"><h3 className="cursive">Productive</h3></div>
                 <div id="overlay"></div>
                 <div id="main-panel">
                     {projects
