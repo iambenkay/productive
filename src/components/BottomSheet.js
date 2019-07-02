@@ -50,13 +50,3 @@ export class CreateBottomSheet extends React.Component {
         );
     }
 }
-
-export class AboutBottomSheet extends React.Component {
-    render() {
-        return (
-            <div className="bottom-sheet p-3" onBlur={this.onBSBlur}>
-                
-            </div>
-        );
-    }
-}
